@@ -64,12 +64,27 @@ const runPreTest = (config, options, utils) => {
         url: 'https://maps-cartes.qa.ec.gc.ca/arcgis/rest/services/TestData/Surverses_des_egouts_unitaires_Combined_sewer_overflow/MapServer/34'
     };
 
+    const canadaLandcover2015FL = {
+        id: "canadaLandcover2015FL",
+        layerType: "esri-map-image",
+        name: "Canada Landcover 2015",
+        url: "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/LandCover_EN/MapServer/",
+        sublayers: [
+            {
+                id: 0,
+                name: "Canada Landcover 2015",
+                visible: true
+            }
+        ]
+    };
+
     utils.addLayerLegend(latlonFL);
     utils.addLayerLegend(mercFL);
     utils.addLayerLegend(lambertFL);
     utils.addLayerLegend(happy);
     utils.addLayerLegend(yarmouth);
     utils.addLayerLegend(duffers);
+    utils.addLayerLegend(canadaLandcover2015FL);
 
     return { config, options };
 };
