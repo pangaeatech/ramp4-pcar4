@@ -118,7 +118,7 @@
         },
         "feature-search": {
             "type": "object",
-            "description": "Provides configuration to the feature-search fixture. This fixture adds a dynamic search source to geosearch that queries attributes of all loaded feature layers on the map.",
+            "description": "Provides configuration to the feature-search fixture. This fixture provides a panel for searching through attributes of all loaded feature layers on the map, replicating the datatable 'search table' behavior.",
             "properties": {
                 "layers": {
                     "type": "array",
@@ -127,15 +127,13 @@
                         "type": "string"
                     }
                 },
-                "categoryName": {
-                    "type": "string",
-                    "default": "Map Feature",
-                    "description": "The category name displayed in the geosearch type filter for feature results."
-                },
                 "maxResultsPerLayer": {
                     "type": "number",
                     "default": 50,
                     "description": "Maximum number of results to return per layer."
+                },
+                "panelTeleport": {
+                    "$ref": "#/$defs/panelTeleport"
                 }
             }
         },

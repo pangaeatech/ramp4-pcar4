@@ -1,16 +1,13 @@
 const runPreTest = (config, options, utils) => {
 
-    // Add geosearch and feature-search fixtures
-    config.startingFixtures.push('geosearch');
+    // Add feature-search fixture
     config.startingFixtures.push('feature-search');
 
     // Configure feature-search
     config.configs.en.fixtures['feature-search'] = {
-        categoryName: 'Map Feature',
         maxResultsPerLayer: 50
     };
     config.configs.fr.fixtures['feature-search'] = {
-        categoryName: 'Entité cartographique',
         maxResultsPerLayer: 50
     };
 

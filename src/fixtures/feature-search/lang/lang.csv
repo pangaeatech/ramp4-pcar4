@@ -1,0 +1,12 @@
+key,enValue,enValid,frValue,frValid
+feature-search.title,Feature Search,1,Recherche d'entités,1
+feature-search.searchText,Search features...,1,Rechercher des entités...,1
+feature-search.noResults,No results to show for ,1,Aucun résultat à afficher pour ,1
+feature-search.loading,Loading...,1,Chargement...,1
+feature-search.zoom,Zoom to feature,1,Zoomer sur l'entité,1
+feature-search.zoom.zooming,Zooming...,1,Zoom en cours...,1
+feature-search.zoom.zoomed,Zoomed,1,Zoom effectué,1
+feature-search.zoom.error,Zoom failed,1,Échec du zoom,1
+feature-search.details,View details,1,Voir les détails,1
+feature-search.layer,Layer,1,Couche,1
+feature-search.name,Name,1,Nom,1
