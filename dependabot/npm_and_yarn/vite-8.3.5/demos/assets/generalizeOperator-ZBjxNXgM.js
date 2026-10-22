@@ -1,0 +1,1 @@
+import"./store-D6OeRGVY.js";import"./apiConverter-CxkQRy4c.js";import"./operatorGeneralize-CpGON6AE.js";export{i as execute,n as executeMany,r as supportsCurves}from"./generalizeOperator-BBvxXmXI.js";
