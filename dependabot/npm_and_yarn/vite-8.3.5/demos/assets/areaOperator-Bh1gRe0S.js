@@ -1,0 +1,1 @@
+import{eb as e}from"./store-D6OeRGVY.js";import"./apiConverter-CxkQRy4c.js";import{t}from"./areaOperator-BNFSsB5X.js";var n=e({execute:()=>t,supportsCurves:()=>!0});export{n as t};

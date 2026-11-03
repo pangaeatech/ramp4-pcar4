@@ -1,0 +1,1 @@
+import{uv as e}from"./store-AJtMBXvb.js";var t=()=>e.respectPrefersReducedMotion&&window.matchMedia(`(prefers-reduced-motion: reduce)`).matches;export{t};

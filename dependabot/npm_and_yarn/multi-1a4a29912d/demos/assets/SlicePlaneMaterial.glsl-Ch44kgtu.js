@@ -1,0 +1,1 @@
+import"./TriangleTechniqueConfiguration-LQ9ei_26.js";import"./oitResolution.glsl-BoAmtsU3.js";import"./ShaderBuilder-C1p7cHPw.js";import{n as e}from"./SlicePlaneMaterial.glsl-Dt-RQ0DH.js";export{e as build};

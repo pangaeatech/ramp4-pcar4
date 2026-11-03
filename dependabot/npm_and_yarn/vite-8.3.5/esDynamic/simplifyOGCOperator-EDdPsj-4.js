@@ -1,0 +1,1 @@
+import{l as e,n as t,t as n}from"./apiConverter-_L-sHY1p.js";import{n as r,t as i}from"./operatorSimplifyOGC-BG7JvXKs.js";function a(r,a){return i(t(r),e(n(r)),a!=null,a??null)}r();export{a as isSimple};
