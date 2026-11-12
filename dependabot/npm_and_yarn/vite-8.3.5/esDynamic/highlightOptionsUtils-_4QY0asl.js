@@ -1,0 +1,1 @@
+import"./HighlightDefaults-C20Vb0gL.js";function e(e){return e?.name??`default`}export{e as t};

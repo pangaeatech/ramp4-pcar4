@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-DsPmjQRF.js";import"./units-DKSGpBRe.js";import{i as t,r as n}from"./geodeticAreaOperator-Bfrc7QeG.js";var r=e({execute:()=>n,load:()=>t});export{r as t};

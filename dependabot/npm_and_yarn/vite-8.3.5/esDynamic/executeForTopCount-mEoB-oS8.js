@@ -1,0 +1,1 @@
+import{n as e}from"./utils-BWsT2L1y.js";import{t}from"./queryTopFeatures-sLJovIIp.js";import{n}from"./TopFeaturesQuery-BThWPrEf.js";async function r(r,i,a){let o=e(r);return(await t(o,n.from(i),{...a})).data.count}export{r as executeForTopCount};

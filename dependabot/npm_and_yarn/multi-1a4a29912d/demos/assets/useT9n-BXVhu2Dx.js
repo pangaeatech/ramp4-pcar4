@@ -1,0 +1,1 @@
+import{Dn as e}from"./store-AJtMBXvb.js";import{r as t}from"./controllers-CBPXIyGF.js";var n=t(e);export{n as t};
